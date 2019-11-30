@@ -1,0 +1,106 @@
+.App {
+  position: relative;
+  text-align: center;
+}
+
+.game-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.finish-text {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 0 10px;
+  font-weight: 900;
+  font-size: 32px;
+  user-select: none;
+}
+
+.victory-text {
+  color: rgb(6, 175, 0);
+}
+
+.game-over-text {
+  color: rgb(255, 59, 59);
+}
+
+.grid {
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 47px;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.button {
+  width: 32px;
+  height: 32px;
+  background: rgb(255, 249, 181);
+  outline: none;
+}
+
+.mine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.exploded-mine {
+  height: 100%;
+  background-color: rgb(255, 59, 59);
+}
+
+.cell {
+  display: inline-block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(0, 0, 0);
+  line-height: 32px;
+  font-weight: 900;
+  vertical-align: middle;
+  user-select: none;
+}
+
+/* Colors for numbers */
+
+.one {
+  color: rgb(0, 0, 255);
+}
+
+.two {
+  color: rgb(0, 160, 0);
+}
+
+.three {
+  color: rgb(255, 0, 0);
+}
+
+.four {
+  color: rgb(126, 0, 230);
+}
+
+.five {
+  color: rgb(114, 0, 0);
+}
+
+.six {
+  color: rgb(0, 196, 196);
+}
+
+.seven {
+  color: rgb(255, 153, 0);
+}
+
+.eight {
+  color: rgb(110, 110, 110);
+}
